@@ -23,5 +23,6 @@ const shape = new Shape('我的形状');
 console.log(shape.getName());
 
 const square = new Square(4);
+console.log(`名称:${square.getName()}`);
 console.log(`边长为:${square.getLength()}`);
 console.log(`面积是:${square.getPerimeter()}`);
